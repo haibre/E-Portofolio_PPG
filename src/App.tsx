@@ -157,7 +157,7 @@ export default function App() {
           >
             <div className="w-72 h-72 md:w-96 md:h-96 relative z-10 animate-float">
                <img 
-                 src="photo.JPG" 
+                 src="public\pdf\photo.JPG" 
                  alt="Brilian Herda" 
                  className="w-full h-full object-cover rounded-[50px] shadow-2xl border-8 border-white"
                  referrerPolicy="no-referrer"
