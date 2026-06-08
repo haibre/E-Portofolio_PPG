@@ -89,6 +89,7 @@ export default function App() {
     { name: 'Dokumentasi', href: '#gallery' },
     { name: 'Penilaian', href: '#penilaian' },
     { name: 'Misi', href: '#misi' },
+    { name: 'E-Portfolio 2', href: '#eportfolio2' },
   ];
 
   // Artifact Utama
@@ -99,7 +100,7 @@ export default function App() {
       category: 'Modul Ajar',
       tag: 'Dasar Pemrograman',
       previewType: 'pdf',
-      previewUrl: '/pdf/lampiran7.pdf',
+      previewUrl: 'https://docs.google.com/document/d/18YR3iH-fPQElrn7I1ZKz3ymAQmzys0Np/edit?usp=sharing&ouid=114770279138089865122&rtpof=true&sd=true',
       icon: FileCode,
       color: 'from-pink-500 to-rose-600',
       description: 'Rancangan pelaksanaan pembelajaran lengkap untuk materi pengenalan Python, variabel, dan tipe data dasar menggunakan metode Problem-Based Learning.',
@@ -109,8 +110,8 @@ export default function App() {
       kekurangan: 'Memerlukan bimbingan intensif bagi kelompok siswa dengan kesiapan belajar awal yang masih rendah.',
       analisisTeori: 'Mengintegrasikan teori Konstruktivisme Sosial Vygotsky melalui konsep scaffolding mandiri dalam kelompok penemu terbimbing.',
       refleksi: 'Pembelajaran berikutnya sebaiknya didahului dengan pengelompokan yang lebih modular berdasarkan hasil asesmen diagnostik kognitif awal.',
-      downloadRpp: '/pdf/lampiran7.pdf',
-      downloadPenilaian: '/pdf/lampiran7.pdf'
+      downloadRpp: 'https://docs.google.com/document/d/18YR3iH-fPQElrn7I1ZKz3ymAQmzys0Np/edit?usp=sharing&ouid=114770279138089865122&rtpof=true&sd=true',
+      downloadPenilaian: 'https://docs.google.com/document/d/18YR3iH-fPQElrn7I1ZKz3ymAQmzys0Np/edit?usp=sharing&ouid=114770279138089865122&rtpof=true&sd=true'
     },
     {
       id: 'media-ppt',
@@ -118,7 +119,7 @@ export default function App() {
       category: 'Media PPT',
       tag: 'Alur Logika & Kontrol',
       previewType: 'image',
-      previewUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=1000',
+      previewUrl: 'https://res.cloudinary.com/dojbebdnu/image/upload/v1780920681/algoritma1_e7l6ub_guz0zj.png',
       icon: BookOpen,
       color: 'from-pink-400 to-pink-600',
       description: 'Slide presentasi visual interaktif dengan animasi diagram alur (flowchart) untuk memudahkan memahami logika seleksi kondisi (if-else).',
@@ -128,12 +129,12 @@ export default function App() {
       kekurangan: 'Sangat bergantung pada ketersediaan proyektor LCD dan stabilitas daya listrik di ruang kelas.',
       analisisTeori: 'Teori Beban Kognitif (Cognitive Load Theory) diaplikasikan dengan meminimalkan redundant text dan memperkuat dual-coding visual.',
       refleksi: 'Peserta didik jauh lebih responsif ketika slide diseliangi kuis kognitif singkat secara interaktif.',
-      downloadRpp: '#',
-      downloadPenilaian: '#'
+      downloadRpp: 'https://res.cloudinary.com/dojbebdnu/raw/upload/v1780919213/algoritma1_e7l6ub.ppt',
+      downloadPenilaian: 'https://res.cloudinary.com/dojbebdnu/raw/upload/v1780919213/algoritma1_e7l6ub.ppt'
     },
     {
       id: 'hasil-kerja',
-      title: 'Hasil Kerja Siswa - Program Kasir Python',
+      title: 'Hasil Kerja Siswa - Mini Project',
       category: 'Hasil Kerja Siswa',
       tag: 'Implementasi Praktis',
       previewType: 'image',
@@ -147,16 +148,16 @@ export default function App() {
       kekurangan: 'Beberapa kelompok masih mengalami miskonsepsi sintaksis pada indentasi block kondisional bersarang.',
       analisisTeori: 'Mengadopsi filsafat Konstruksionisme Papert: belajar paling bermakna terjadi saat siswa terlibat dalam mendesain objek bermakna.',
       refleksi: 'Membagikan lembar pemantauan kemajuan mingguan (milestone sheet) terbukti menekan angka free-rider dalam kelompok.',
-      downloadRpp: '#',
-      downloadPenilaian: '#'
+      downloadRpp: 'https://docs.google.com/spreadsheets/d/12xb9E9fQV76Pn0EWV8NLmGvkdIecADMq678d41812-o/edit?usp=sharing',
+      downloadPenilaian: 'https://docs.google.com/spreadsheets/d/12xb9E9fQV76Pn0EWV8NLmGvkdIecADMq678d41812-o/edit?usp=sharing'
     },
     {
       id: 'quiz-python',
       title: 'Quiz Python - Gamifikasi Evaluasi Kelas X',
       category: 'Quiz Python',
       tag: 'Asesmen Formatif',
-      previewType: 'video',
-      previewUrl: 'https://www.youtube.com/embed/rfscVS0vtbw',
+      previewType: 'image',
+      previewUrl: 'https://res.cloudinary.com/dojbebdnu/image/upload/v1780920119/wayground_odevk6.png',
       icon: Target,
       color: 'from-amber-400 to-rose-500',
       description: 'Alat evaluasi formatif berbasis Quizizz yang dirancang dengan aturan gamifikasi menarik guna mengukur kecepatan adaptasi materi.',
@@ -166,8 +167,8 @@ export default function App() {
       kekurangan: 'Peserta didik yang memiliki hp spesifikasi lama sesekali mengalami keterlambatan rendering waktu kuis.',
       analisisTeori: 'Menerapkan Teori Penguatan Behaviorisme melalui skor real-time leaderboard sebagai stimulus ekstrinsik bermakna.',
       refleksi: 'Gamifikasi terbukti meningkatkan rasa kompetisi sehat, namun butuh pendampingan khusus bagi siswa yang lambat membaca logika.',
-      downloadRpp: '#',
-      downloadPenilaian: '#'
+      downloadRpp: 'https://wayground.com/admin/quiz/69e8a60179400d2733485cfe',
+      downloadPenilaian: 'https://wayground.com/admin/quiz/69e8a60179400d2733485cfe'
     }
   ];
 
@@ -236,43 +237,43 @@ export default function App() {
       id: 1,
       title: 'Praktik Mengajar Terbimbing di Kelas',
       category: 'mengajar',
-      url: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&q=80&w=1000',
+      url: 'https://res.cloudinary.com/dojbebdnu/image/upload/f_auto,q_auto/20260402_133012_c1wuxt',
       description: 'Penyampaian materi logika Python menggunakan media visual kreatif untuk menjaga antusiasme kelas.'
     },
     {
       id: 2,
-      title: 'Sesi Diskusi Kelompok PBL',
-      category: 'diskusi',
-      url: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=1000',
+      title: 'Praktik Mengajar Terbimbing di Kelas',
+      category: 'mengajar',
+      url: 'https://res.cloudinary.com/dojbebdnu/image/upload/v1780917886/IMG_0947_dbwg6h.jpg',
       description: 'Peserta didik berkolaborasi mengurai masalah pemrograman dasar kasir dan berbagi ide alur program.'
     },
     {
       id: 3,
-      title: 'Presentasi Hasil Proyek Siswa',
-      category: 'presentasi siswa',
-      url: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=1000',
-      description: 'Siswa mempresentasikan aplikasi konsol yang berhasil dibangun dengan rasa percaya diri tinggi.'
+      title: 'Pendampingan Individu (Scaffolding)',
+      category: 'mengajar',
+      url: 'https://res.cloudinary.com/dojbebdnu/image/upload/v1780918305/WhatsApp_Image_2026-06-08_at_6.30.58_PM_1_ctcdvu.jpg',
+      description: 'Memberikan pendampingan individu dengan strategi scaffolding untuk membantu peserta didik mengatasi kesulitan belajar sesuai kebutuhan dan kemampuan masing-masing.'
     },
     {
       id: 4,
       title: 'Pendampingan Individu (Scaffolding)',
       category: 'mengajar',
-      url: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1000',
+      url: 'https://res.cloudinary.com/dojbebdnu/image/upload/v1780917872/IMG_0953_wmwhpt.jpg',
       description: 'Membantu siswa secara asertif yang mengalami hambatan logika sintaksis pemrograman.'
     },
     {
       id: 5,
       title: 'Diskusi Refleksi Bersama Guru Pamong',
       category: 'diskusi',
-      url: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=1000',
+      url: 'https://res.cloudinary.com/dojbebdnu/image/upload/v1780917883/IMG_0946_xeeewn.jpg',
       description: 'Menerima arahan positif pasca praktik mengajar untuk peningkatan kualitas siklus lanjutan.'
     },
     {
       id: 6,
-      title: 'Tanya Jawab Interaktif Siswa',
-      category: 'presentasi siswa',
-      url: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=1000',
-      description: 'Sesi evaluasi antar kelompok siswa untuk membina daya pikir kritis serta komunikasi asertif.'
+      title: 'Upacara Hari Pendidikan',
+      category: 'peringatan hari pendidikan',
+      url: 'https://res.cloudinary.com/dojbebdnu/image/upload/v1780918306/WhatsApp_Image_2026-05-02_at_9.06.21_AM_ydu5vo.jpg',
+      description: 'Partisipasi dalam Upacara Hari Pendidikan Nasional sebagai wujud komitmen dalam mendukung kemajuan pendidikan dan pembentukan karakter peserta didik.'
     }
   ];
 
@@ -615,7 +616,7 @@ export default function App() {
                       download 
                       className="bg-gradient-to-r from-primary to-secondary text-white py-4 px-6 rounded-2xl font-bold flex items-center justify-center gap-2 shadow-lg shadow-primary/20 hover:shadow-secondary/30 hover:-translate-y-0.5 transition-all text-center text-sm"
                     >
-                      <Download size={16} /> Download RPP
+                      <Download size={16} /> Open File
                     </a>
                     <a 
                       id="btn-download-penilaian"
@@ -623,7 +624,7 @@ export default function App() {
                       download 
                       className="bg-gray-900 hover:bg-gray-800 text-white py-4 px-6 rounded-2xl font-bold flex items-center justify-center gap-2 hover:-translate-y-0.5 transition-all text-center text-sm"
                     >
-                      <Download size={16} /> Download Penilaian
+                      <Download size={16} /> Download File
                     </a>
                   </div>
                 </div>
@@ -830,7 +831,7 @@ export default function App() {
 
           {/* Filtering Tabs */}
           <div className="flex flex-wrap justify-center gap-2 mb-12">
-            {['semua', 'mengajar', 'diskusi', 'presentasi siswa'].map((category) => (
+            {['semua', 'mengajar', 'diskusi'].map((category) => (
               <button
                 id={`gallery-filter-${category.replace(' ', '-')}`}
                 key={category}
@@ -859,7 +860,7 @@ export default function App() {
               >
                 <div className="h-64 overflow-hidden relative">
                   <img 
-                    src={photo.JPG} 
+                    src={photo.url} 
                     alt={photo.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     referrerPolicy="no-referrer"
@@ -1003,7 +1004,7 @@ export default function App() {
               <div className="bg-white rounded-3xl p-4 shadow-xl h-[600px] border-4 border-white overflow-hidden">
                 <iframe 
                   id="iframe-pdf-lampiran8"
-                  src="/pdf/lampiran8.pdf" 
+                  src="/pdf/Brilian-Herda-S.Kom.pdf" 
                   className="w-full h-full rounded-2xl bg-gray-50"
                   style={{ border: 'none' }}
                 />
@@ -1131,6 +1132,188 @@ export default function App() {
                   ))}
                 </div>
              </div>
+          </div>
+        </div>
+      </section>
+
+      {/* E-Portfolio 2: Prinsip / Nilai Guru & Filosofi Mengajar */}
+      <section id="eportfolio2" className="py-24 px-6 bg-gradient-to-b from-transparent to-[#FFB6C1]/10 scroll-mt-24">
+        <div className="max-w-7xl mx-auto">
+          {/* Section Header */}
+          <div className="mb-16 text-center">
+            <span className="inline-block px-4 py-1.5 bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest rounded-full mb-3">
+              E-Portfolio Bagian 2
+            </span>
+            <h3 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight text-gray-900">
+              Prinsip & Nilai Filosofi Guru
+            </h3>
+            <p className="text-gray-500 font-semibold text-sm max-w-2xl mx-auto leading-relaxed">
+              Formulasi nilai, filosofi pengajaran personal, dan refleksi akhir komprehensif dari seluruh rangkaian tahapan PPL Terbimbing.
+            </p>
+          </div>
+
+          {/* Two Column Layout */}
+          <div className="grid lg:grid-cols-12 gap-12 items-start">
+            
+            {/* Column 1: Refleksi Akhir PPL Terbimbing (lg:col-span-6) */}
+            <motion.div 
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="lg:col-span-6 space-y-8"
+            >
+              <div className="flex items-center gap-4 mb-2">
+                <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary shrink-0 shadow-sm shadow-primary/5">
+                  <RefreshCw size={24} className="animate-spin-slow" />
+                </div>
+                <div>
+                  <h4 className="text-2xl font-black text-gray-900 leading-tight">I. Refleksi Akhir PPL Terbimbing</h4>
+                  <p className="text-xs text-secondary font-bold uppercase tracking-widest">Analisis Dan Evaluasi Pengalaman Lapangan</p>
+                </div>
+              </div>
+
+              {/* Sub-Card 1: Apa yang dipelajari */}
+              <div className="bg-white rounded-[32px] p-8 border border-gray-100 shadow-xl shadow-gray-100/50 hover:shadow-2xl hover:bg-white/95 transition-all duration-300 group relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-2 h-full bg-primary" />
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-xl bg-pink-50 flex items-center justify-center text-[#D6336C] shrink-0 mt-0.5">
+                    <GraduationCap size={20} />
+                  </div>
+                  <div>
+                    <h5 className="text-[17px] font-black text-gray-900 mb-3 leading-snug">
+                      Apa yang telah dipelajari sebagai peserta PPG calon guru selama PPL Terbimbing dari awal hingga akhir?
+                    </h5>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Selama mengarungi tahapan PPL Terbimbing dari awal hingga akhir, saya memperoleh proses belajar yang utuh dan transformatif. Pada tahap awal, saya belajar melakukan <strong className="text-primary font-bold">observasi mendalam terhadap karakteristik peserta didik</strong> kelas X Fase E mencakup gaya belajar, latar belakang sosiokultural, dan <em>entry behavior</em> kognitif secara asertif. Pada fase asistensi, saya belajar berkolaborasi menyelaraskan materi bersama guru pamong. Dan selama <strong className="text-primary font-bold">praktik mengajar terbimbing (3 siklus penuh)</strong>, saya belajar mendesain, mengujicobakan, dan mengevaluasi modul ajar berbasis <em>Problem-Based Learning</em> (PBL). Saya menyadari pendidik profesional tidak hanya mahir menuangkan teori sains ke papan tulis, melainkan cakap merawat integrasi <em>Pedagogical Content Knowledge</em> (PCK) demi mewujudkan pembelajaran berpihak pada hakikat kemerdekaan belajar murid.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Sub-Card 2: Pengalaman Menantang & Solusi */}
+              <div className="bg-white rounded-[32px] p-8 border border-gray-100 shadow-xl shadow-gray-100/50 hover:shadow-2xl hover:bg-white/95 transition-all duration-300 group relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-2 h-full bg-secondary" />
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-xl bg-pink-50 flex items-center justify-center text-secondary shrink-0 mt-0.5">
+                    <Target size={20} />
+                  </div>
+                  <div>
+                    <h5 className="text-[17px] font-black text-gray-900 mb-3 leading-snug">
+                      Apakah terdapat pengalaman yang menantang dan bagaimana solusi nyata dari permasalahan tersebut?
+                    </h5>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Tantangan utama yang nyata adalah <strong className="text-primary font-bold">disparitas literasi teknologi dan tingkat kecepatan kognitif yang sangat heterogen</strong> antar murid di laboratorium komputer kelas X. Ada siswa yang luar biasa tangkas menguasai materi pemrograman dasar Python, sementara beberapa siswa lainnya membutuhkan waktu ekstra hanya untuk memahami alur penulisan sintaks logika. Solusi yang saya lakukan adalah mengimplementasikan <strong className="text-primary font-bold">Differentiated Instruction (Pembelajaran Terdiferensiasi)</strong>. Saya merancang <em>modular scaffolding sheets</em> (lembar penuntun gradasi) dan menerapkan metode <strong className="text-primary font-bold">tutor sebaya (peer-tutoring)</strong> di dalam kelompok. Solusi kolaboratif ini terbukti andal menjaga kohesivitas belajar tanpa membiarkan siswa mana pun tertinggal dalam keputusasaan kognitif.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Sub-Card 3: Umpan Balik untuk PPL Mandiri */}
+              <div className="bg-white rounded-[32px] p-8 border border-gray-100 shadow-xl shadow-gray-100/50 hover:shadow-2xl hover:bg-white/95 transition-all duration-300 group relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-2 h-full bg-[#D6336C]" />
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-xl bg-pink-50 flex items-center justify-center text-[#D6336C] shrink-0 mt-0.5">
+                    <Award size={20} />
+                  </div>
+                  <div>
+                    <h5 className="text-[17px] font-black text-gray-900 mb-3 leading-snug">
+                      Apa umpan balik atau saran konstruktif diskusi refleksi akhir sebagai perbaikan ke PPL Mandiri?
+                    </h5>
+                    <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                      Guru Pamong dan Dosen Pembimbing Lapangan memberikan apresiasi atas fleksibilitas kepemimpinan pembelajaran saya. Sebagai pijakan peningkatan performa menghadapi <strong className="text-primary font-bold">PPL Mandiri</strong>, saya mengantongi saran konstruktif yang konkret:
+                    </p>
+                    <ul className="space-y-3.5 text-sm text-gray-600">
+                      <li className="flex items-start gap-2.5">
+                        <CheckCircle2 size={16} className="text-primary shrink-0 mt-0.5" />
+                        <span><strong>Optimasi Alokasi Waktu (Pacing):</strong> Mempertajam distribusi durasi menit pada tahapan sintaks PBL agar eksplorasi mandiri bermakna memiliki porsi waktu yang longgar dan proporsional.</span>
+                      </li>
+                      <li className="flex items-start gap-2.5">
+                        <CheckCircle2 size={16} className="text-primary shrink-0 mt-0.5" />
+                        <span><strong>Inovasi Remedial Instan:</strong> Merakit ragam kuis formatif asinkron yang ramah akses di gawai cerdas siswa guna membantu melampaui Kriteria Ketercapaian Tujuan Pembelajaran (KKTP).</span>
+                      </li>
+                      <li className="flex items-start gap-2.5">
+                        <CheckCircle2 size={16} className="text-primary shrink-0 mt-0.5" />
+                        <span><strong>Classroom Presence yang Asertif:</strong> Meningkatkan kontrol intonasi suara dan kewibawaan gestur ketika menengahi riuhnya diskusi interaktif dan gamifikasi kelompok kelas.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Column 2: Filosofi Mengajar (lg:col-span-6) */}
+            <motion.div 
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="lg:col-span-6 space-y-8"
+            >
+              <div className="flex items-center gap-4 mb-2">
+                <div className="w-14 h-14 bg-secondary/10 rounded-2xl flex items-center justify-center text-secondary shrink-0 shadow-sm shadow-secondary/5">
+                  <BookOpen size={24} />
+                </div>
+                <div>
+                  <h4 className="text-2xl font-black text-gray-900 leading-tight">II. Filosofi Mengajar</h4>
+                  <p className="text-xs text-secondary font-bold uppercase tracking-widest">Prinsip, Keyakinan, Dan Ideologi Pendidikan</p>
+                </div>
+              </div>
+
+              {/* Detailed Editorial Reading Card */}
+              <div className="bg-white rounded-[36px] p-8 md:p-12 border border-gray-100 shadow-xl shadow-gray-100/50 relative overflow-hidden">
+                <div className="absolute top-0 right-0 p-8 opacity-[0.03] text-primary pointer-events-none">
+                  <Quote size={180} />
+                </div>
+
+                <div className="space-y-8">
+                  {/* Paragraph 1 */}
+                  <div className="space-y-3">
+                    <span className="text-[10px] uppercase tracking-widest bg-[#D6336C]/10 text-primary font-black px-3 py-1 rounded-md">
+                      Pilar 1: Filosofi Ki Hajar Dewantara
+                    </span>
+                    <p className="text-sm md:text-[15px] text-gray-700 leading-relaxed font-normal">
+                      <span className="text-4xl font-black text-[#D6336C] float-left mr-3 mt-1.5 font-serif leading-[0.80]">F</span>
+                      ilosofi mengajar saya berakar kuat pada keyakinan mendasar bahwa mengajar adalah sebuah proses <strong className="text-primary">"menuntun" segala kekuatan kodrat</strong> yang ada pada diri anak-anak, agar mereka dapat mencapai keselamatan dan kebahagiaan setinggi-tingginya baik sebagai manusia individu maupun anggota masyarakat. Meneladani pokok wejangan pemisalan sosiokultural <strong className="text-gray-900 font-extrabold">Ki Hajar Dewantara</strong>, saya menempatkan guru seumpama seorang pesemai benih atau juru berkebun yang tekun. Murid-murid ibarat biji tanaman beraneka rupa dan bibit unggul yang khas. Sesuai dengan pembawaan aslinya, adalah kewajiban mutlak saya memelihara, mencukupi gizi tanah, mengaliri air, dan melindunginya dari parasit tanpa berupaya merubah hakikat silsilah jagung menjadi padi. Semboyan luhur <em>"Ing Ngarso Sung Tulodo, Ing Madyo Mangun Karso, Tut Wuri Handayani"</em> senantiasa mengharuskan saya menjadi mercusuar moralitas luhur di garda depan, menjadi penggugah inisiatif kolaborasi di lini tengah, serta menyuntikkan dorongan kemerdekaan kognitif mandiri dari lini belakang.
+                    </p>
+                  </div>
+
+                  {/* Paragraph 2 */}
+                  <div className="space-y-3">
+                    <span className="text-[10px] uppercase tracking-widest bg-pink-100 text-secondary font-black px-3 py-1 rounded-md">
+                      Pilar 2: Pembelajaran Sosio-Konstruktivis
+                    </span>
+                    <p className="text-sm md:text-[15px] text-gray-700 leading-relaxed font-normal">
+                      Secara teoretis-pedagogis, saya sepenuhnya mengintegrasikan pemikiran aliran <strong className="text-gray-900 font-extrabold">Konstruktivisme Sosial milik Lev Vygotsky</strong> ke dalam denyut nadi pengajaran sehari-hari. Saya meyakini bahwa belajar bermakna (<em>meaningful learning</em>) bukanlah akumulasi penerimaan secara statis, melainkan proses aktif mengonstruksi pemahaman baru yang melintasi proses sosial-interoperabilitas kelas. Guru bergeser peran dari pemegang kebenaran tunggal menjadi fasilitator andal yang mendesain stimulasi terarah secara berkala. Dalam materi penguasaan teknologi digital, prinsip ini saya terapkan dengan memberikan tantangan penyelesaian penugasan riil (<em>Problem-Based Learning</em>) di mana saya bertindak menyediakan struktur <strong className="text-primary font-bold">scaffolding</strong> kognitif yang dinamis di dalam <em>Zone of Proximal Development</em> (ZPD) siswa. Seiring dengan kemajuan tingkat kecakapan bernalar kritis siswa, bantuan instruksional tersebut dipangkas agar mereka tegak mandiri di atas keyakinan bernalarnya sendiri.
+                    </p>
+                  </div>
+
+                  {/* Paragraph 3 */}
+                  <div className="space-y-3">
+                    <span className="text-[10px] uppercase tracking-widest bg-gray-100 text-gray-700 font-black px-3 py-1 rounded-md">
+                      Pilar 3: Humanisasi Carl Rogers
+                    </span>
+                    <p className="text-sm md:text-[15px] text-gray-700 leading-relaxed font-normal">
+                      Pada muaranya, integritas profesionalitas saya ditopang oleh <strong className="text-gray-900 font-extrabold">pendekatan psikologi humanis milik Carl Rogers</strong>. Pembelajaran bermakna di kelas mustahil tercapai apabila atmosfer pengajaran dilingkupi rasa cemas, kecurigaan belajar, atau ketakutan intelektual terhadap kegagalan. Atas dasar itulah, saya berpandangan bahwa proses menajamkan rasio asah kognitif harus diimbangi oleh kelembutan asih emosional yang tulus. Saya mendedikasikan diri menyajikan kultur kelas yang bersandar pada <strong className="text-primary font-bold">penerimaan positif tanpa syarat</strong> (<em>unconditional positive regard</em>) dan penangkapan empati yang peka. Ketika siswa didudukkan dengan mulia serta diapresiasi segenap kepribadian aslinya secara utuh, barulah pertahanan afektif mereka terbuka lebar untuk mengeksplorasi potensi terbaiknya menuju tumbuh kembang sejati sebagai profil Pelajar Pancasila yang membawa sumbangsih unggul bagi nusa dan bangsa.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Conceptual Literature Highlights */}
+                <div className="mt-10 pt-6 border-t border-gray-100 flex flex-wrap gap-2">
+                  <span className="text-[11px] font-extrabold bg-[#D6336C]/10 text-[#D6336C] px-3.5 py-1.5 rounded-xl border border-[#D6336C]/10">
+                    Menuntun Kodrat (Ki Hajar Dewantara)
+                  </span>
+                  <span className="text-[11px] font-extrabold bg-pink-100 text-secondary px-3.5 py-1.5 rounded-xl border border-pink-200">
+                    Socio-Cultural ZPD (Lev Vygotsky)
+                  </span>
+                  <span className="text-[11px] font-extrabold bg-gray-50 text-gray-700 px-3.5 py-1.5 rounded-xl border border-gray-100">
+                    Unconditional Positive Regard (Carl Rogers)
+                  </span>
+                </div>
+              </div>
+            </motion.div>
+
           </div>
         </div>
       </section>
